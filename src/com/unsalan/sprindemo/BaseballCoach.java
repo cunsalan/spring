@@ -30,4 +30,16 @@ public class BaseballCoach implements Coach {
 		// TODO Auto-generated method stub
 		return fortuneService.getFortune();
 	}
+
+	@Override
+	public String getEmailAdrress() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getTeam() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
